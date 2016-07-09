@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment  
+        android:id="@+id/fragement_main"  
+        android:name="com.zcl.MainFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"/>  
+  
+    <fragment  
+        android:id="@+id/fragement_mylog"  
+        android:name="com.zcl.MyLogFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" />  
+  
+    <fragment  
+        android:id="@+id/fragement_meg"  
+        android:name="com.zcl.MegFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" />
+    <fragment  
+        android:id="@+id/fragement_myself"  
+        android:name="com.zcl.MySelfFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" />
+
+    <com.zcl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.zcl.TitleLayout>
+
+    <com.zcl.BaseTitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.zcl.BaseTitleLayout>
+
+</FrameLayout>
